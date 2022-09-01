@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.fake-navbar, .fake-footer{
+    height: auto;
+    width: 100vw;
+}
+
+.fake-navbar img, .fake-footer img{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 64px 0 64px;
+}
+.main{
+    height: auto;
+    width: 935px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 44px;
+}
+.dp-wrap{
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+}
+.dp-wrap img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    width: 733px;
+}
+.name{
+    margin-bottom: 12px;
+    font-size: 28px;
+}
+.post-count{
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+.count{
+    font-weight: bold;
+}
+.follow-btn{
+    width: auto;
+    background-color: rgb(0, 149, 246);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 9px 5px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.post-title{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: rgb(142, 142, 142);
+}
+.post-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.s-post{
+    height: 293px;
+    width: 293px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 28px;
+}
+/*
+.fake-navbar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.fake-footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}*/
